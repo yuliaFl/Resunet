@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resunet", "Resunet\Resunet.csproj", "{8FAC70E8-2D4F-416C-919E-73AC2271102F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAC70E8-2D4F-416C-919E-73AC2271102F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAC70E8-2D4F-416C-919E-73AC2271102F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAC70E8-2D4F-416C-919E-73AC2271102F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAC70E8-2D4F-416C-919E-73AC2271102F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7041C6A-1EC7-4021-9856-F156AF769922}
+	EndGlobalSection
+EndGlobal
