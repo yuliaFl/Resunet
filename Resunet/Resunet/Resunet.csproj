@@ -8,4 +8,21 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="7.0.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="DAL\" />
+    <None Remove="BL\" />
+    <None Remove="DAL\Auth\" />
+    <None Remove="DAL\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAL\" />
+    <Folder Include="BL\" />
+    <Folder Include="DAL\Auth\" />
+    <Folder Include="DAL\Models\" />
+  </ItemGroup>
 </Project>
