@@ -1,26 +1,46 @@
 ﻿<Properties StartupConfiguration="{8FAC70E8-2D4F-416C-919E-73AC2271102F}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Resunet PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Resunet/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Resunet PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resunet/Views/Register/Index.cshtml">
     <Files>
-      <File FileName="Resunet/Controllers/HomeController.cs" Line="33" Column="1" />
+      <File FileName="Resunet/Controllers/RegisterController.cs" Line="39" Column="2" />
+      <File FileName="Resunet/ViewMapper/AuthMapper.cs" Line="9" Column="58" />
+      <File FileName="Resunet/Views/Register/Index.cshtml" Line="19" Column="7" />
+      <File FileName="Resunet/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Resunet/Program.cs" Line="25" Column="24" />
+      <File FileName="Resunet/DAL/AuthDAL.cs" Line="6" Column="24" />
+      <File FileName="Resunet/DAL/IAUTHDal.cs" Line="15" Column="1" />
+      <File FileName="Resunet/BL/Auth/AuthBL.cs" Line="18" Column="2" />
+      <File FileName="Resunet/ViewModels/RegisterViewModel.cs" Line="6" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Resunet" expanded="True">
             <Node name="Resunet" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="BL" expanded="True">
+                <Node name="Auth" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="ViewMapper" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Register" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

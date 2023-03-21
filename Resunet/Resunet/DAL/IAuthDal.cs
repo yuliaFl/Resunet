@@ -1,8 +1,8 @@
 ﻿using System;
 using Resunet.DAL.Models;
-namespace Resunet.DAL.Auth
+namespace Resunet.DAL
 {
-	public interface IAUTHDal
+	public interface IAuthDal
 	{
 		Task<UserModel> GetUser(string email);
 

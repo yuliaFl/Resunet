@@ -3,9 +3,9 @@ using Dapper;
 using Npgsql;
 using Resunet.DAL.Models;
 
-namespace Resunet.DAL.Auth
+namespace Resunet.DAL  
 {
-    public class AuthDAL : IAUTHDal
+    public class AuthDAL : IAuthDal
     {
         public async Task<UserModel> GetUser(string email)
         {
@@ -44,3 +44,4 @@ values(@Email, @Password, @Salt, @Status)";
     }
 }
 
+  

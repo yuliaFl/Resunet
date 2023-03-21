@@ -16,13 +16,19 @@
   <ItemGroup>
     <None Remove="DAL\" />
     <None Remove="BL\" />
-    <None Remove="DAL\Auth\" />
     <None Remove="DAL\Models\" />
+    <None Remove="BL\Auth\" />
+    <None Remove="ViewModels\" />
+    <None Remove="ViewMapper\" />
+    <None Remove="Views\Register\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\" />
     <Folder Include="BL\" />
-    <Folder Include="DAL\Auth\" />
     <Folder Include="DAL\Models\" />
+    <Folder Include="BL\Auth\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewMapper\" />
+    <Folder Include="Views\Register\" />
   </ItemGroup>
 </Project>
