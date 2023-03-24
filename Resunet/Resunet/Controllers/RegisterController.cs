@@ -24,11 +24,11 @@ namespace Resunet.Controllers
 
         [HttpPost]
         [Route("/register")]
-        public IActionResult IndexSave(RegisterViewModel model)
+        public async Task<IActionResult>IndexSave(RegisterViewModel model)
         {
 			if (ModelState.IsValid)
 			{
-				authBl.CreateUser(AuthMapper.MapRegisterVIewModelToUserModel(model));
+				await authBl.CreateUser(AuthMapper.MapRegisterVIewModelToUserModel(model));
 			}
 			return View("Index", model);
 

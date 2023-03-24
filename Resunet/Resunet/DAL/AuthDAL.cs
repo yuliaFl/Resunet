@@ -36,7 +36,7 @@ namespace Resunet.DAL
             using (var connection = new NpgsqlConnection(DbHelper.ConnString))
             {
                 connection.Open();
-                string sql = @"insert into AppUser (UserId, Email,Password, Salt,Status)
+                string sql = @"insert into AppUser (Email,Password, Salt,Status)
 values(@Email, @Password, @Salt, @Status)";
                 return await connection.ExecuteAsync(sql, model);
             }

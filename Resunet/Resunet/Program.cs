@@ -4,6 +4,7 @@
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<Resunet.BL.Auth.IAuthBL,Resunet.BL.Auth.AuthBL > ();
+builder.Services.AddSingleton<Resunet.BL.Auth.IEncrypt, Resunet.BL.Auth.Encrypt>();
 builder.Services.AddSingleton<Resunet.DAL.IAuthDal, Resunet.DAL.AuthDAL>();
 
 
