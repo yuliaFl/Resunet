@@ -21,6 +21,7 @@
     <None Remove="ViewModels\" />
     <None Remove="ViewMapper\" />
     <None Remove="Views\Register\" />
+    <None Remove="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\" />
@@ -30,5 +31,6 @@
     <Folder Include="ViewModels\" />
     <Folder Include="ViewMapper\" />
     <Folder Include="Views\Register\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
 </Project>

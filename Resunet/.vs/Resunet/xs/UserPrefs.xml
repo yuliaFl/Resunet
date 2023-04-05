@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{8FAC70E8-2D4F-416C-919E-73AC2271102F}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Resunet/DAL/AuthDAL.cs">
-    <Files>
-      <File FileName="Resunet/Program.cs" Line="23" Column="1" />
-      <File FileName="Resunet/BL/Auth/Encrypt.cs" Line="21" Column="49" />
-      <File FileName="Resunet/BL/Auth/AuthBL.cs" Line="19" Column="1" />
-      <File FileName="Resunet/BL/Auth/IAuthBL.cs" Line="1" Column="1" />
-      <File FileName="Resunet/BL/Auth/IEncrypt.cs" Line="1" Column="1" />
-      <File FileName="Resunet/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Resunet/Controllers/RegisterController.cs" Line="31" Column="1" />
-      <File FileName="Resunet/DAL/Models/UserModel.cs" Line="10" Column="44" />
-      <File FileName="Resunet/ViewMapper/AuthMapper.cs" Line="16" Column="1" />
-      <File FileName="Resunet/DAL/DbHelper.cs" Line="10" Column="1" />
-      <File FileName="Resunet/DAL/AuthDAL.cs" Line="36" Column="1" />
-      <File FileName="Resunet/DAL/IAuthDal.cs" Line="1" Column="1" />
-    </Files>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/yuliaflenova/Projects/dotNet/Resunet/Resunet/Controllers/RegisterController.cs" relfile="Resunet/Controllers/RegisterController.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -25,7 +19,7 @@
               <Node name="Controllers" expanded="True" />
               <Node name="DAL" expanded="True">
                 <Node name="Models" expanded="True" />
-                <Node name="AuthDAL.cs" selected="True" />
+                <Node name="IAuthDal.cs" selected="True" />
               </Node>
               <Node name="ViewMapper" expanded="True" />
               <Node name="ViewModels" expanded="True" />
@@ -38,13 +32,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/yuliaflenova/Projects/dotNet/Resunet/Resunet/Controllers/RegisterController.cs" relfile="Resunet/Controllers/RegisterController.cs" line="31" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Resunet PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

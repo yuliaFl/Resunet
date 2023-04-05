@@ -1,0 +1,19 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+
+}
+<div>
+    <form action="/login" method="post">
+        <p>
+            <label>Email</label>
+            <input name="Email" type="text" value="@Model.Email" />
+        </p>
+        <p>
+            <label>Password</label>
+            <input name="Password" type="password" />
+        </p>
+        <button>Register</button>
+    </form>
+</div>

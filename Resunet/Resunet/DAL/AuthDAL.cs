@@ -11,7 +11,7 @@ namespace Resunet.DAL
         {
             using (var connection = new NpgsqlConnection(DbHelper.ConnString))
             {
-                connection.Open();
+                await connection.OpenAsync();
                 return await connection.QueryFirstOrDefaultAsync<UserModel>(
                    @"select UserId, Email,Password, Salt,Status " +
                    "from AppUser " +
@@ -23,7 +23,7 @@ namespace Resunet.DAL
         {
             using (var connection = new NpgsqlConnection(DbHelper.ConnString))
             {
-                connection.Open();
+                await connection.OpenAsync();
                 return await connection.QueryFirstOrDefaultAsync<UserModel>(
                     @"select UserId, Email,Password, Salt,Status " +
                     "from AppUser " +
@@ -35,7 +35,7 @@ namespace Resunet.DAL
         {
             using (var connection = new NpgsqlConnection(DbHelper.ConnString))
             {
-                connection.Open();
+                await connection.OpenAsync();
                 string sql = @"insert into AppUser (Email,Password, Salt,Status)
 values(@Email, @Password, @Salt, @Status)";
                 return await connection.ExecuteAsync(sql, model);
