@@ -34,6 +34,7 @@ namespace Resunet.Controllers
             if (ModelState.IsValid)
             {
                 await authBl.Authenticate(model.Email!, model.Password!, model.RememberMe == true);
+                return Redirect("/");
             }
             return View("Index", model);
 

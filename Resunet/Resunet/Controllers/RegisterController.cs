@@ -29,6 +29,7 @@ namespace Resunet.Controllers
 			if (ModelState.IsValid)
 			{
 				await authBl.CreateUser(AuthMapper.MapRegisterVIewModelToUserModel(model));
+				return Redirect("/");
 			}
 			return View("Index", model);
 

@@ -25,8 +25,14 @@ namespace Resunet.BL.Auth{
 		{
 			httpContextAccessor.HttpContext?.Session.SetInt32(AuthConstants.AUTH_SESSION_PARAM_NAME, id);
 		}
-        public Task<int> Authenticate(string email, string password, bool rememberMe)
+        public async Task<int> Authenticate(string email, string password, bool rememberMe)
 		{
+			var user = await authDal.GetUser(email);
+			if (user.Password == encrypt.HashPassword(password, user.Salt)){
+				Login(user.UserId ?? 0); 
+				return user.UserId ?? 0;
+			}
+			return 0;
 			throw new Exception("NOT WORKING YET");
 		}
     }

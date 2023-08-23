@@ -1,31 +1,38 @@
 ﻿<Properties StartupConfiguration="{8FAC70E8-2D4F-416C-919E-73AC2271102F}|https">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/yuliaflenova/Projects/dotNet/Resunet/Resunet/Controllers/RegisterController.cs" relfile="Resunet/Controllers/RegisterController.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resunet/Program.cs">
+    <Files>
+      <File FileName="Resunet/BL/Auth/AuthBL.cs" />
+      <File FileName="Resunet/Program.cs" Line="34" Column="1" />
+      <File FileName="Resunet/Controllers/RegisterController.cs" Line="31" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Resunet" expanded="True">
             <Node name="Resunet" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="BL" expanded="True">
                 <Node name="Auth" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="DAL" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="IAuthDal.cs" selected="True" />
-              </Node>
               <Node name="ViewMapper" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Login" expanded="True" />
                 <Node name="Register" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,4 +40,5 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Resunet PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,4 +1,6 @@
-﻿@{
+﻿@model bool
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -7,3 +9,10 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
+@if(Model)
+{
+    <h1>Registered</h1>
+}
+else{
+    <h1>Not Registered</h1>
+}
