@@ -39,7 +39,7 @@ namespace Resunet.DAL
                 string sql = @"insert into AppUser (Email,Password, Salt,Status)
                 values(@Email, @Password, @Salt, @Status); 
                 SELECT currval(pg_get_serial_sequence('AppUser','userid'));";
-                return await connection.ExecuteAsync(sql, model);
+                return await connection.QuerySingleAsync<int>(sql, model);
             }
         }
     }

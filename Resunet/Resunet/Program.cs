@@ -8,6 +8,7 @@ builder.Services.AddSingleton<Resunet.BL.Auth.IEncrypt, Resunet.BL.Auth.Encrypt>
 builder.Services.AddScoped<Resunet.BL.Auth.ICurrentUser,Resunet.BL.Auth.CurrentUser>();
 builder.Services.AddSingleton<Resunet.DAL.IAuthDal, Resunet.DAL.AuthDAL>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddMvc().AddSessionStateTempDataProvider();
 builder.Services.AddSession();
 
  var app = builder.Build();  

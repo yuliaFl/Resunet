@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Resunet.Models;
+using Resunet.BL.Auth;
 
 namespace Resunet.Controllers;
 
@@ -17,7 +18,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View(currentUser.isLoggedIn());
+        return View(currentUser.IsLoggedIn());
     }
 
     public IActionResult Privacy()
